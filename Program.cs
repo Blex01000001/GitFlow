@@ -13,7 +13,6 @@ namespace GitFlow
     {
         static void Main(string[] args)
         {
-            //msater 1.0.0
             Console.WriteLine("請輸入使用者姓名：");
             String UserName = Console.ReadLine();
             Console.WriteLine("請輸入使用者帳號：");

@@ -24,13 +24,9 @@ namespace GitFlow
             String Address = Console.ReadLine();
 
             User user = new User(UserName,Account,Password,Address);
-          
-
             RegisterService service = new RegisterService();
-
-            bool isSuccess = service.Register(user);
-
-            if (isSuccess)
+            
+            if (service.Register(user))
                 Console.WriteLine("登入成功");
             else
             {

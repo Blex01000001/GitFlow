@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GitFlow.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace GitFlow
         static void Main(string[] args)
         {
             //msater 1.0.0
+            SigninService signinservice = new SigninService();
         }
     }
 }

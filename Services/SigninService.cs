@@ -8,6 +8,10 @@ namespace GitFlow.Services
 {
     internal class SigninService
     {
-        //SigninService v.08
+        //SigninService v.09
+        public void SigninServiceFunction()
+        {
+            Console.WriteLine("SigninServiceFunction");
+        }
     }
 }

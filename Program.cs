@@ -23,11 +23,8 @@ namespace GitFlow
             Console.WriteLine("請輸入使用者地址：");
             String Address = Console.ReadLine();
 
-            User user = new User();
-            user.Name = UserName;
-            user.Account = Account;
-            user.Password = Password;
-            user.Address = Address;
+            User user = new User(UserName,Account,Password,Address);
+          
 
             RegisterService service = new RegisterService();
 
@@ -39,7 +36,6 @@ namespace GitFlow
             {
                 Console.WriteLine("登入失敗");
             }
-            SigninService signinservice = new SigninService();
         }
     }
 }

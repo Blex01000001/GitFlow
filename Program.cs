@@ -40,6 +40,8 @@ namespace GitFlow
                 Console.WriteLine("登入失敗");
             }
             SigninService signinservice = new SigninService();
+
+            Console.ReadKey();
         }
     }
 }

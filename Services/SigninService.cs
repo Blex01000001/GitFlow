@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitFlow
+namespace GitFlow.Services
 {
-    internal class signin
+    internal class SigninService
     {
-        //signin 0.4
+        //SigninService
     }
 }

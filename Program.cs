@@ -35,7 +35,7 @@ namespace GitFlow
 
             Console.ReadKey();
             
-            //Bugfix/收不到驗證信
+            //Bugfix/收不到驗證信2
         }
     }
 }

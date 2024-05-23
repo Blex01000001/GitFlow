@@ -35,7 +35,7 @@ namespace GitFlow
 
             Console.ReadKey();
 
-            //Hotfix/登入使用者收不到認證信
+            //Hotfix/登入使用者收不到認證信 fin.
         }
     }
 }
